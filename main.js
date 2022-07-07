@@ -30,7 +30,7 @@ var content = event.results[0][0].transcript;
             if(content == "rectangle")
             {
                 x = Math.floor(Math.random() * 900);
-                y = Math.floor(Math.random * 600);
+                y = Math.floor(Math.random() * 600);
                 document.getElementById("status").innerHTML = "Started drawing rectangle";
                 draw_rect = "set";
             }
